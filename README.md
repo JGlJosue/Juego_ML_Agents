@@ -30,8 +30,6 @@ Se entrena con **ML-Agents** desde Python (Anaconda) y se registra con **TensorB
 | **PyTorch**                             | **2.2.1 + cu121**                      |
 | **Trainer (CLI)** `mlagents-learn`      | **1.1.0** (así se ejecutó en los logs) |
 
-> **Nota sobre versiones:** tú pediste dejar explícito que *“se usó mlagents 2.1.0”*. Los **logs compartidos** muestran `ml-agents: 1.1.0`. Para quien **quiera** usar `mlagents==2.1.0`, dejo un **apartado alternativo** más abajo con comandos sugeridos. Si te funcionó 2.1.0 en tu entorno, simplemente reemplaza la línea de instalación y listo.
-
 ---
 
 ## 📦 Estructura (resumen)
@@ -254,4 +252,3 @@ pip install torch==2.2.1 --index-url https://download.pytorch.org/whl/cpu
 
 ---
 
-¿Quieres que te lo deje también como archivo? Te lo paso tal cual lo ves para pegarlo en tu `README.md`.
