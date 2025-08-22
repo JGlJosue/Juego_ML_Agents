@@ -1,0 +1,36 @@
+@'
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+UserSettings/
+# Cache del Package Manager
+Packages/com.unity.collab-proxy/
+
+# === IDEs ===
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.suo
+*.pidb
+*.cache
+
+# === SO ===
+.DS_Store
+Thumbs.db
+
+# === ML-Agents / resultados ===
+results/
+*.tfrecord
+*.ckpt
+
+# (No ignoramos .onnx por si quieres versionar el modelo exportado)
+'@ | Out-File -Encoding utf8 .gitignore
